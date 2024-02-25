@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{3bc99e25-6857-46a9-8465-f28c81a5b3e1}</ProjectGuid>
+    <RootNamespace>FinalProject</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\OpenGL\GLFW\include;C:\OpenGL\GLEW\include;C:\OpenGL\glm;C:\OpenGL\GLAD;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\OpenGL\GLFW\lib-vc2019;C:\OpenGL\GLEW\lib\Release\Win32;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\Queen\source\repos\FinalProject\textures;C:\Users\Queen\source\repos\FinalProject\ExtDep;C:\Users\Queen\source\repos\FinalProject\Headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glfw3.lib;opengl32.lib;glew32.lib;glu32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="cylinder.cpp" />
+    <ClCompile Include="FinalProject.cpp" />
+    <ClCompile Include="SceneBuilder.cpp" />
+    <ClCompile Include="ShapeBuilder.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Headers\camera.h">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="..\Headers\cylinder.h">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Mesh.h">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="..\Headers\resource.h">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="..\Headers\SceneBuilder.h">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="..\Headers\ShapeBuilder.h">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="..\Headers\stb_image.h">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</DeploymentContent>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\black.png" />
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\bricks.png" />
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\brickslft.png" />
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\caffeine_corner.png" />
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\coffee.png" />
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\coffee_cup.png" />
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\desk.png" />
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\dirt.png" />
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\dunes.jpg" />
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\final project.png" />
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\goldmetal.png" />
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\grey.png" />
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\kiss.png" />
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\kiss_flag.png" />
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\kiss_sides.png" />
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\leaf.png" />
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\metal.png" />
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\pen_body.png" />
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\pen_clip.png" />
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\pen_tip.png" />
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\plant.png" />
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\pot_sides.png" />
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\pot_top.png" />
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\pyramid.png" />
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\pyramid01.png" />
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\pyramid_tex.jpg" />
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\realbricks.png" />
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\rocks.png" />
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\rubiks.png" />
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\smiley.png" />
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\smiley_cyl.png" />
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\tablet.png" />
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\walltexture.png" />
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\white.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

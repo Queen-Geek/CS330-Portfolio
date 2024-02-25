@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\Queen\source\repos\FinalProject\Debug\FinalProject.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>C:\Users\Queen\source\repos\FinalProject\Headers\camera.h</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\Queen\source\repos\FinalProject\Headers\cylinder.h</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\Queen\source\repos\FinalProject\Headers\Mesh.h</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\Queen\source\repos\FinalProject\Headers\resource.h</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\Queen\source\repos\FinalProject\Headers\SceneBuilder.h</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\Queen\source\repos\FinalProject\Headers\ShapeBuilder.h</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\Queen\source\repos\FinalProject\Headers\stb_image.h</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

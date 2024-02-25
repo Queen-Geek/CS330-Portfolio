@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="textures">
+      <UniqueIdentifier>{dae1ba2d-cfc5-44c5-8dc7-02f34632f2a9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FinalProject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cylinder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Headers\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\cylinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\SceneBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\ShapeBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\coffee_cup.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\desk.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\dirt.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\dunes.jpg">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\goldmetal.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\grey.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\kiss.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\kiss_flag.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\kiss_sides.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\leaf.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\metal.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\pen_body.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\pen_clip.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\pen_tip.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\plant.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\pot_sides.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\pot_top.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\pyramid.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\pyramid_tex.jpg">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\pyramid01.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\realbricks.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\rocks.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\rubiks.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\smiley.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\smiley_cyl.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\tablet.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\walltexture.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\white.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\final project.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\black.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\bricks.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\brickslft.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\caffeine_corner.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Downloads\SNHU_CS_330_Computer_Graphics_and_Visualization-master\SNHU_CS_330_Computer_Graphics_and_Visualization-master\7-1 Final Project - A 3D Scene\textures\coffee.png">
+      <Filter>textures</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
