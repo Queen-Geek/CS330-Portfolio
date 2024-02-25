@@ -8,13 +8,15 @@ Dynamic spot and key lighting with controllable position and color
 Perspective and orthographic projection toggles
 Textured objects with support for different image formats
 Real-time rendering with support for window resizing and fullscreen mode
-Dependencies
+
+# Dependencies
 GLFW 3.3
 GLEW 2.1.0
 GLM 0.9.9
 STB_Image for texture loading
-Building the Project
-To build the project, ensure you have the above dependencies installed and use the provided FinalProject.sln solution file for Visual Studio.
+
+# Building the Project
+To build the project, ensure you have the above dependencies installed and use the provided FinalProject.sln solution file for Visual Studio. Otherwise, header files and texture files can be found in code base. Provision your Visual Studio environment to include OPENGL blm, GLAD, GLEW, and GLFW. OpenGL files will be uploaded for assistance.
 
 # Running the Project
 Execute the compiled binary, which will open a window displaying the 3D scene. Use the mouse and keyboard to interact with the scene.
